@@ -56,3 +56,9 @@ Import packages
 Conditionals
 
 - if and when can be expressions but only with else branch included
+
+Functions
+
+- Kotlin is a functional language
+- Can treat functions as first class citizens and as primitives
+
