@@ -22,5 +22,27 @@ fun main(args: Array<String>) {
     val myInt = 100
     val myLongAgain: Long = myInt.toLong(); // conversion of types. No implicit conversions in Kotlin, have to do everything explicitly
 
+    // String
+    val myChar = 'A'
+    val myString = "My String"
+
+    val escapeCharacters = "A new line \n"
+
+    val rawString = "Hello " +
+            "This is the second line " +
+            "A third line "
+
+    val multipleLines = """
+                        This is a string
+                        And this is another line
+                        """
+    //String interpolation
+
+    val years = 10
+    val message = "A decade is $years years"
+
+    val name = "Mary"
+    val anotherMessage = "Length of name is ${name.length}" //curly braces needed when using methods of the object
+
 
 }
