@@ -61,4 +61,6 @@ Functions
 
 - Kotlin is a functional language
 - Can treat functions as first class citizens and as primitives
-
+- Unit is similar to void but it is an object that we can compare to.
+- There is a type Nothing. It is different to Unit. Nothing represents the value that never exists.
+-Return value of function can be infered by compiler
