@@ -14,4 +14,13 @@ fun main(args: Array<String>) {
 
     val zip = "E11 P1" //Immutable variable. When declared and initialized cannot be reassigned.
 
+    val myLong = 10L
+    val myFloat = 100F
+    val myHex = 0x0F
+    val myBinary = 0xb01
+
+    val myInt = 100
+    val myLongAgain: Long = myInt.toLong(); // conversion of types. No implicit conversions in Kotlin, have to do everything explicitly
+
+
 }
