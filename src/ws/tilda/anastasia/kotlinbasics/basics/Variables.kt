@@ -20,7 +20,7 @@ fun main(args: Array<String>) {
     val myBinary = 0xb01
 
     val myInt = 100
-    val myLongAgain: Long = myInt.toLong(); // conversion of types. No implicit conversions in Kotlin, have to do everything explicitly
+    val myLongAgain: Long = myInt.toLong() // conversion of types. No implicit conversions in Kotlin, have to do everything explicitly
 
     // String
     val myChar = 'A'

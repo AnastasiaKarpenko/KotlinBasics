@@ -42,3 +42,7 @@ Conventions
 - Multiple classes per file allowed
 - Packages do not have to match the folder names, there is not reason for not doing this.
 
+Main functions
+- One package allows you to have multiple main functions
+- Only one main function per same file
+
