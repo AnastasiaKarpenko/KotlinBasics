@@ -43,9 +43,16 @@ Conventions
 - Packages do not have to match the folder names, there is not reason for not doing this.
 
 Main functions
+
 - One package allows you to have multiple main functions
 - Only one main function per same file
 
 Import packages
+
 - println function is implicitly imported from the package Kotlin.io
 - we can explicitly import the packages
+- in case of conflicts we can rename the imported function in the new file
+
+Conditionals
+
+- if and when can be expressions but only with else branch included
