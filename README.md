@@ -46,3 +46,6 @@ Main functions
 - One package allows you to have multiple main functions
 - Only one main function per same file
 
+Import packages
+- println function is implicitly imported from the package Kotlin.io
+- we can explicitly import the packages
