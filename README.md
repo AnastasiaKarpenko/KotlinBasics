@@ -154,6 +154,7 @@ Generics
 - Generics is supported in Kotlin
 - Allows us to cut the boilerplate code.
 - Kotlin supports generic functions fun <T> functionName().
-In this case the T generic parameter moves from the interface/class to the function level
+In this case the T generic parameter moves from the interface/class to the function level (only makes sense when there is a need in different types of parameters)
+
 
 
