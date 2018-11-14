@@ -1,7 +1,7 @@
 # KotlinBasics
 Learning basics of Kotlin language 
 
-Kotlin Notes
+My Kotlin notes from the course "Introduction to Kotlin Programming" by Hadi Hariri of JetBrains
 
 Introduction
 
@@ -71,3 +71,19 @@ This avoids to massively overload of the functions. THis cuts down the boilerpla
 - Functions with unlimited parameters: when we don't know beforehand how many parameters we have to use. vararg allows us to create a function with undefined number of parameters.
 - when we want to pass a vararg to another function we have to use the * operator in the braces before the parameter
 - Single expression functions don't need function block
+
+Classes
+
+- To declare a class in Kotlin we need to use keyword class adn then the name of the the class
+- Class can have properties, we need to open curly braces and declare the property
+- For class properties, we don't need to be explicit about the type of properties
+- there are no fields in Kotlin, only properties
+- Much like variables we can have immutable properties
+- To declare an instance of the class we need to create a new variable and instantiate it with name fo the class and braces. There is no new keyword
+- To access class properties we use .-notation. className.propertyName
+- Property can be intitialized right away after the declaration or move to constructor parameters and initialize properties from constructor paramenters(though it is a lot of code repetition)
+- or in the constructor declare var/val parameters "class Customer(var id: Int, var name: String)"
+- to add constructor to the class add the braces after the name of the class and put parameters (just name and type) or properties *var/val, name and type) there inside the braces
+- Classes also can have default parameters in their constructor, just like functions
+- We can use the init{} block to work with properties of the class right at the moment when the instance of the class is created.
+-
