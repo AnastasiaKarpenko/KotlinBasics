@@ -60,10 +60,14 @@ Conditionals
 Functions
 
 - Kotlin is a functional language
+- Function is declared using keyword fun
 - Can treat functions as first class citizens and as primitives
 - Unit is similar to void but it is an object that we can compare to.
 - There is a type Nothing. It is different to Unit. Nothing represents the value that never exists.
-- Return value of function can be infered by compiler
+- Return value of function can be inferred by compiler
 - Availability to have default parameters, we can add the default value in the parameters when declaring the function.
 This avoids to massively overload of the functions. THis cuts down the boilerplate code.
 - We can change order of how we pass parameters, using named parameters when calling the method.
+- Functions with unlimited parameters: when we don't know beforehand how many parameters we have to use. vararg allows us to create a function with undefined number of parameters.
+- when we want to pass a vararg to another function we have to use the * operator in the braces before the parameter
+- Single expression functions don't need function block
