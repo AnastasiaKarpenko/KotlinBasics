@@ -1,7 +1,8 @@
 package ws.tilda.anastasia.kotlinbasics.inheritance
 
 interface  CustomerRepository {
-    val isEmplty: Boolean // can have property that cannot be instantiated
+    val isEmpty: Boolean // can have property that cannot be instantiated
+        get() = true
 
     fun getById(id: Int): Customer
 
@@ -12,11 +13,15 @@ interface  CustomerRepository {
 }
 
 class SQLCustomerRepository: CustomerRepository {
-    override val isEmplty: Boolean
-        get() = TODO("not implemented") //To change initializer of created properties use File | Settings | File Templates.
+    override val isEmpty: Boolean
+        get() = false
 
     override fun getById(id: Int): Customer {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        return Customer()
+    }
+
+    override fun store(obj: Customer) {
+
     }
 
 }

@@ -143,7 +143,8 @@ Interfaces
 - The difference between interface and abstract class is that you cannot maintain state in an interface.
 - There is single inheritance model, when you can only inherit from one class. But with interfaces you can implement many interfaces
 - Interfaces cannot maintain state but they can have properties (just without instantiation)
--
-
+- However it is possible to provide getters/setters for the properties
+- We can override default getters and setters for the properties in teh interfaces
+- We can override the default implementation of the methods in the interfaces
 
 
