@@ -111,4 +111,6 @@ Data classes
 Enum classes
 
 - We can add a value to enum class (in the constructor)
+- We can override toString method of each enum member
+- Kotlin requires the semicolon in the end of enum member before creating the abstract function in the enum class
 
