@@ -6,6 +6,7 @@ import java.util.*
 // Constructor with properties inside
 class Customer(var id: Int, var name: String, val yearOfBirth: Int) {
 
+
     val age : Int
         get() = Calendar.getInstance().get(Calendar.YEAR) - yearOfBirth // custom getter for the age property
 

@@ -106,3 +106,5 @@ Data classes
 - Java data classes uses a lot of boilerplate code. We never know it is generated or it is byt he company standards or anything else
 - there is a data modifier that we put before the class, it gives us toString method, getHashCode and equals functions ready
 - also the ability to copy objects nad override the properties if needed
+- any of these methods can be overriden by override keyword.
+

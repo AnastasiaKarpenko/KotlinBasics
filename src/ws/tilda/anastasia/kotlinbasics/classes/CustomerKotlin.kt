@@ -1,13 +1,17 @@
 package ws.tilda.anastasia.kotlinbasics.classes
 
-data class CustomerKotlin (var id: Int, var name: String, var email: String)
+data class CustomerKotlin(var id: Int, var name: String, var email: String) {
+    override fun toString(): String {
+        return "{\"id\": \"$id\", \"name\": \"$name\", \"email\": \"$email\"}\n\n" //JSON style
+    }
+}
 
 fun main(args: Array<String>) {
     val customer1 = CustomerKotlin(1, "Anastasiia", "akarpenko@aalto.fi")
     val customer2 = CustomerKotlin(1, "Anastasiia", "akarpenko@aalto.fi")
     val customer3 = customer1 //can copy the objects
 
-    if(customer1 == customer2) {
+    if (customer1 == customer2) {
         println("They are the same")
     }
 
