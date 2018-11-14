@@ -132,9 +132,18 @@ Inheritance
 And it requires some level of inheritance
 
 Abstract classes
+
 - They cannot be instantiated, only inherited
 - They can have abstract members without the implementation. Implementation of abstract members is provided in the child class.
 - Not every member of an abstract class cna be abstract.
+
+Interfaces
+
+- Interfaces can have default implementations
+- The difference between interface and abstract class is that you cannot maintain state in an interface.
+- There is single inheritance model, when you can only inherit from one class. But with interfaces you can implement many interfaces
+- Interfaces cannot maintain state but they can have properties (just without instantiation)
+-
 
 
 
