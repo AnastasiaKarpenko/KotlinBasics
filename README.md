@@ -108,3 +108,7 @@ Data classes
 - also the ability to copy objects nad override the properties if needed
 - any of these methods can be overriden by override keyword.
 
+Enum classes
+
+- We can add a value to enum class (in the constructor)
+
