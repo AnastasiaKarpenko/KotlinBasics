@@ -146,5 +146,7 @@ Interfaces
 - However it is possible to provide getters/setters for the properties
 - We can override default getters and setters for the properties in teh interfaces
 - We can override the default implementation of the methods in the interfaces
+- We can specify which method of which interface we want to override, it methods have the same name in both interfaces.
+we need to use super<interface name>.method().
 
 
