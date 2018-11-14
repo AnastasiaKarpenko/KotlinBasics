@@ -86,4 +86,4 @@ Classes
 - to add constructor to the class add the braces after the name of the class and put parameters (just name and type) or properties *var/val, name and type) there inside the braces
 - Classes also can have default parameters in their constructor, just like functions
 - We can use the init{} block to work with properties of the class right at the moment when the instance of the class is created.
--
+- There is ability to create secondary constructor on the main constructor that will do the same thing as init block

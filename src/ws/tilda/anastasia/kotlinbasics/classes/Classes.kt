@@ -5,6 +5,8 @@ class Customer(var id: Int, var name: String) {
     init{
         name = name.toUpperCase()
     }
+
+    constructor(email: String) : this(0, "") //secondary constructor
 }
 
 //Class with constructor that holds parameters, properties are initialized from these parameters
