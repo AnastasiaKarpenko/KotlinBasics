@@ -87,5 +87,5 @@ Classes
 - Classes also can have default parameters in their constructor, just like functions
 - We can use the init{} block to work with properties of the class right at the moment when the instance of the class is created.
 - There is ability to create secondary constructor on the main constructor that will do the same thing as init block
-- We can use custom getters and setter for the properties in Kotlin
+- We can use custom getters and setter for the properties in Kotlin. We use curly braces for multiline and = for one line
 -
