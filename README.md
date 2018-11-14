@@ -149,4 +149,10 @@ Interfaces
 - We can specify which method of which interface we want to override, it methods have the same name in both interfaces.
 we need to use super<interface name>.method().
 
+Generics
+
+- Generics is supported in Kotlin
+- Allows us to cut the boilerplate code.
+- Kotlin supports generic functions fun <T> functionName(). In this case the T generic parameter moves from the interface/class to the function level
+
 

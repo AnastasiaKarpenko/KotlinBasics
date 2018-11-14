@@ -21,6 +21,7 @@ class SQLCustomerRepository : CustomerRepository {
     }
 
     override fun store(obj: Customer) {
+        super.store(obj)
 
     }
 }
