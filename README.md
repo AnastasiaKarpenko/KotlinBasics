@@ -165,3 +165,10 @@ Null safety
 - Elvis operator helps to reduce boilerplate code with multiple indented if checks
 - There is !! operator that tell compiler to stop complaining about the null checks. There are certain situations where we want to use this operator:
 interoperability situations.
+
+Type casting
+
+- We dont need explicitly cast it to type Employee because compiler uses smart casting and checks by itself beforehand
+- Int cannot be cast to String.
+- Safe casting in this case: use ? operator. In this case if casting cannot be done, it returns null as a string.
+
