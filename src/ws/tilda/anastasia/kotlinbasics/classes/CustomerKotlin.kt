@@ -12,4 +12,7 @@ fun main(args: Array<String>) {
     }
 
     println(customer3.email)
+
+    val customer4 = customer3.copy(email = "karpena2@aalto.fi") //also to copy the object and override the property if needed
+    println(customer4)
 }
