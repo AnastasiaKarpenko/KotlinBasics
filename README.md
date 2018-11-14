@@ -156,5 +156,12 @@ Generics
 - Kotlin supports generic functions fun <T> functionName().
 In this case the T generic parameter moves from the interface/class to the function level (only makes sense when there is a need in different types of parameters)
 
+Null safety
 
-
+- By default Kotlin is null safe, therefore all types cannot be null by default
+- If we need to work with null values, we can specify the type for variables adding question marks after the type like var message: String?. Here we explicitly tell that message is nullable
+- In order to provide nullability checks, use "elvis operator" message?.length. It checks message for being not null and invokes its length only if it is not null.
+- Elvis operator can be also used with functions
+- Elvis operator helps to reduce boilerplate code with multiple indented if checks
+- There is !! operator that tell compiler to stop complaining about the null checks. There are certain situations where we want to use this operator:
+interoperability situations.
