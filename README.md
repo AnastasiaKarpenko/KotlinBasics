@@ -131,5 +131,10 @@ Inheritance
 - Data class can inherit from a other class. It is useful when you have a hierarchy of data objects that we want to persist with ORM for example.
 And it requires some level of inheritance
 
+Abstract classes
+- They cannot be instantiated, only inherited
+- They can have abstract members without the implementation. Implementation of abstract members is provided in the child class.
+- Not every member of an abstract class cna be abstract.
+
 
 
