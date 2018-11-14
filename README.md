@@ -1,7 +1,7 @@
 # KotlinBasics
 Learning basics of Kotlin language 
 
-My Kotlin notes from the course "Introduction to Kotlin Programming" by Hadi Hariri of JetBrains
+My notes while following the course "Introduction to Kotlin Programming" by Hadi Hariri of JetBrains
 
 Introduction
 
