@@ -88,4 +88,4 @@ Classes
 - We can use the init{} block to work with properties of the class right at the moment when the instance of the class is created.
 - There is ability to create secondary constructor on the main constructor that will do the same thing as init block
 - We can use custom getters and setter for the properties in Kotlin. We use curly braces for multiline and = for one line
--
+- In order to set the property value in the setter in Kotlin, we should use the special recognized word field

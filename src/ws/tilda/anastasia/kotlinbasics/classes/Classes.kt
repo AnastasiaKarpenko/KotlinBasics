@@ -15,6 +15,7 @@ class Customer(var id: Int, var name: String, val yearOfBirth: Int) {
             if(!value.startsWith("SN")) {
                 throw IllegalArgumentException("Social security should start with SN")
             }
+            field = value //this is setting the actual value
         }
 }
 
@@ -36,5 +37,6 @@ fun main(args: Array<String>) {
     customer.socialSecurityNumber = "SN123"
 
     println(customer.age)
+    println(customer.socialSecurityNumber)
 
 }
