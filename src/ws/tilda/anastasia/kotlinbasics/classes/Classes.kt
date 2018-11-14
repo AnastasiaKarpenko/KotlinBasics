@@ -1,12 +1,12 @@
 package ws.tilda.anastasia.kotlinbasics.classes
 
-// Constructor with properties inside
-class Customer(var id: Int, var name: String) {
-    init{
-        name = name.toUpperCase()
-    }
+import java.util.*
 
-    constructor(email: String) : this(0, "") //secondary constructor
+// Constructor with properties inside
+class Customer(var id: Int, var name: String, val yearOfBirth: Int) {
+
+    val age : Int
+        get() = Calendar.getInstance().get(Calendar.YEAR) - yearOfBirth // custom getter for the age property
 }
 
 //Class with constructor that holds parameters, properties are initialized from these parameters
@@ -22,8 +22,8 @@ class CustomerThree {
 }
 
 fun main(args: Array<String>) {
-    var customer = Customer(1, "Anastasiia")
+    var customer = Customer(1, "Anastasiia", 1986 )
 
-    println(customer.name)
+    println(customer.age)
 
 }
