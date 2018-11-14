@@ -77,7 +77,8 @@ Classes
 - To declare a class in Kotlin we need to use keyword class adn then the name of the the class
 - Class can have properties, we need to open curly braces and declare the property
 - For class properties, we don't need to be explicit about the type of properties
-- there are no fields in Kotlin, only properties
+- there are no fields in Kotlin, only properties.
+- We have access to the "backing" field if required in custom getters/setters
 - Much like variables we can have immutable properties
 - To declare an instance of the class we need to create a new variable and instantiate it with name fo the class and braces. There is no new keyword
 - To access class properties we use .-notation. className.propertyName
@@ -89,6 +90,10 @@ Classes
 - There is ability to create secondary constructor on the main constructor that will do the same thing as init block
 - We can use custom getters and setter for the properties in Kotlin. We use curly braces for multiline and = for one line
 - In order to set the property value in the setter in Kotlin, we should use the special recognized word field
+- We can create an object without being it an instance of specific class
+- If we create a global object it implements a Singleton pattern with very little code
+- We can create local objects inside the functions, for instance. To declare the local object variable we use object keyword and initialize object properties inside curly braces
+- Data classes with data modifier provides toString and hashCode functions
 
 Visibility modifiers
 
@@ -113,4 +118,6 @@ Enum classes
 - We can add a value to enum class (in the constructor)
 - We can override toString method of each enum member
 - Kotlin requires the semicolon in the end of enum member before creating the abstract function in the enum class
+
+
 
