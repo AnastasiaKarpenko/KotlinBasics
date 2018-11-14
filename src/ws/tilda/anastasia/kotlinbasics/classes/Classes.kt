@@ -17,6 +17,10 @@ class Customer(var id: Int, var name: String, val yearOfBirth: Int) {
             }
             field = value //this is setting the actual value
         }
+
+    fun customerAsString(): String {
+        return "Id: $id = Name: $name"
+    }
 }
 
 //Class with constructor that holds parameters, properties are initialized from these parameters
@@ -38,5 +42,7 @@ fun main(args: Array<String>) {
 
     println(customer.age)
     println(customer.socialSecurityNumber)
+
+    println(customer.customerAsString())
 
 }
