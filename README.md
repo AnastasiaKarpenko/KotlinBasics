@@ -93,10 +93,10 @@ Classes
 Visibility modifiers
 
 - Public - default and anywhere accessible
-Top-level declarations:
+- Top-level declarations:
 - private - available inside the file containing declaration
 - internal - Anywhere in the same module. Module here is a Gradle module, or maven or IntelliJ module
-Classes:
+- Classes:
 - private - only available for class members
 - protected - same as private and subclasses
 - internal - Any client inside the module
