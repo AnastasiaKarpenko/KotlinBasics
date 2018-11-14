@@ -119,5 +119,17 @@ Enum classes
 - We can override toString method of each enum member
 - Kotlin requires the semicolon in the end of enum member before creating the abstract function in the enum class
 
+Inheritance
+
+- Kotlin supports inheritance
+- The base class for all is Any()
+- We don't have to explicitly put that our class inherits from Any()
+- In Kotlin by default all types are final, so in order to inherit from oine class we should declare it open
+- In order to override method that belongs to a parent class we should make it open too
+- If we want to access primary constructor from secondary one, we use super()
+- There is a final keyword in Kotlin that is used when we don't want functions to be overridden in inherited classes
+- Data class can inherit from a other class. It is useful when you have a hierarchy of data objects that we want to persist with ORM for example.
+And it requires some level of inheritance
+
 
 
