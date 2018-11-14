@@ -63,4 +63,7 @@ Functions
 - Can treat functions as first class citizens and as primitives
 - Unit is similar to void but it is an object that we can compare to.
 - There is a type Nothing. It is different to Unit. Nothing represents the value that never exists.
--Return value of function can be infered by compiler
+- Return value of function can be infered by compiler
+- Availability to have default parameters, we can add the default value in the parameters when declaring the function.
+This avoids to massively overload of the functions. THis cuts down the boilerplate code.
+- We can change order of how we pass parameters, using named parameters when calling the method.
