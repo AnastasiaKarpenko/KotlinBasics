@@ -100,3 +100,8 @@ Visibility modifiers
 - private - only available for class members
 - protected - same as private and subclasses
 - internal - Any client inside the module
+
+Data classes
+
+- Java data classes uses a lot of boilerplate code. We never know it is generated or it is byt he company standards or anything else
+- there is a data keyword that we put before the class, it gives us toString methos, getHashCode and equals functions ready
