@@ -89,3 +89,14 @@ Classes
 - There is ability to create secondary constructor on the main constructor that will do the same thing as init block
 - We can use custom getters and setter for the properties in Kotlin. We use curly braces for multiline and = for one line
 - In order to set the property value in the setter in Kotlin, we should use the special recognized word field
+
+Visibility modifiers
+
+- Public - default and anywhere accessible
+Top-level declarations:
+- private - available inside the file containing declaration
+- internal - Anywhere in the same module. Module here is a Gradle module, or maven or IntelliJ module
+Classes:
+- private - only available for class members
+- protected - same as private and subclasses
+- internal - Any client inside the module
