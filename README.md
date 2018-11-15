@@ -176,4 +176,7 @@ Tuples
 
 - Sometimes we might want to work with more than one value but not go fully fledged into use Data classes. That's where Tuples come in.
 - There are classes Pair<T1,T2> and Triple<T1, T2, T3> that are just data classes with 2 or 3 properties.
+- Ability to deconstruct values
+- That leads to the Ability to enhance the semantics of the code that we are writing
+- Deconstruction of values can be done in for-loops as well
 
