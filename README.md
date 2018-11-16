@@ -186,3 +186,7 @@ Exceptions
 - Exceptions extend Throwable class
 - To pass a message to an exception, we nee to pass a message to a Throwable constructor that our exception class extends
 - In Kotlin in try-catch block can return an expression and a value, the block can be expression itself.
+
+Constants
+- you either create an top object (should be imported prior to usage)
+- or create a top variable
