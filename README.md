@@ -201,3 +201,10 @@ Annotations
 - Compilable with Java annotations
 - Can create custom annotations
 - Can rename the annotations (Test as Specification for instance)
+
+Functional programming
+
+- A function taking another function as a parameter
+- or a function returning a function
+- To pass in the function by name we use ::
+- There are nio limitations in what w can create in the higher order functions
