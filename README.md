@@ -188,7 +188,14 @@ Exceptions
 - In Kotlin in try-catch block can return an expression and a value, the block can be expression itself.
 
 Constants
+
 - you either create an top object (should be imported prior to usage)
 - or create a top variable
 - it is good to group several constant values and put it in the same object
 - Top level properties will be difficult to track , where the things are in a sense.
+
+Annotations
+
+- Compilable with Java annotations
+- can create custom annotations
+- Can rename the annotations (Test as Specification for instance)
