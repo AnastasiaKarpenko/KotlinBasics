@@ -219,3 +219,7 @@ Anonymous functions
 
 - They do not have a name, just the fun keyword
 - They can have a body and return smth
+
+Closures
+ - When a lambda expression references variables of the function in which it's contained, this forms a closure, and it has some gotcha's we need to be aware of.
+ -
