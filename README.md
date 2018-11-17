@@ -208,3 +208,14 @@ Functional programming
 - or a function returning a function
 - To pass in the function by name we use ::
 - There are nio limitations in what w can create in the higher order functions
+
+Lambda expressions
+
+- Don't need to declare function header but just the body
+- If the only parameter of the function is another function, it does not go into brackets. Just curly braces.
+- Sometimes it is like creating keywords and passing an object on which you need to so something (like commiting to the database etc) and a chunk of code. And the 'keyword" going to encapsulate this code and commit and tun the transaction
+
+Anonymous functions
+
+- They do not have a name, just the fun keyword
+- They can have a body and return smth
