@@ -60,5 +60,8 @@ fun main(args: Array<String>) {
         // (like commiting to the database etc) and a chunk of code. And the 'keyword" going to encapsulate this
         // code and commit and tun the transaction
     }
+
+    unaryOperation(3, fun(x: Int): Int { return x * x } ) // fun here is an anonymous function
+
 }
 
