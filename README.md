@@ -222,4 +222,7 @@ Anonymous functions
 
 Closures
  - When a lambda expression references variables of the function in which it's contained, this forms a closure, and it has some gotcha's we need to be aware of.
- -
+
+ Extended functions
+
+ - We can create a new function on its class without having to extend it and inherit from this class.
