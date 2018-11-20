@@ -38,4 +38,8 @@ public class Customerjava {
                 '}';
     }
 
+    public void prettyPrint() {
+        System.out.println("Id: " + id + " Name:" + name);
+    }
+
 }

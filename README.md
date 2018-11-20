@@ -228,3 +228,9 @@ Closures
  - We can create a new function on its class without having to extend it and inherit from this class.
  - As soon as you import the package where the extended function is, you can use it oin other files
  - If an extended function will be called the same as an existing member function, the preference will be to the member function
+ - Extension functions are statically resolved
+
+ Java interoperability
+
+ -Can use java classes in Kotlin files
+ - Kotlin classes can extend Java classes and implement Java interfaces
