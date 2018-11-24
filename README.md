@@ -124,7 +124,7 @@ Inheritance
 - Kotlin supports inheritance
 - The base class for all is Any()
 - We don't have to explicitly put that our class inherits from Any()
-- In Kotlin by default all types are final, so in order to inherit from oine class we should declare it open
+- In Kotlin by default all types are final, so in order to inherit from one class we should declare it open
 - In order to override method that belongs to a parent class we should make it open too
 - If we want to access primary constructor from secondary one, we use super()
 - There is a final keyword in Kotlin that is used when we don't want functions to be overridden in inherited classes
@@ -144,7 +144,7 @@ Interfaces
 - There is single inheritance model, when you can only inherit from one class. But with interfaces you can implement many interfaces
 - Interfaces cannot maintain state but they can have properties (just without instantiation)
 - However it is possible to provide getters/setters for the properties
-- We can override default getters and setters for the properties in teh interfaces
+- We can override default getters and setters for the properties in the interfaces
 - We can override the default implementation of the methods in the interfaces
 - We can specify which method of which interface we want to override, it methods have the same name in both interfaces.
 we need to use super<interface name>.method().
@@ -184,7 +184,7 @@ Tuples
 Exceptions
 
 - Exceptions extend Throwable class
-- To pass a message to an exception, we nee to pass a message to a Throwable constructor that our exception class extends
+- To pass a message to an exception, we need to pass a message to a Throwable constructor that our exception class extends
 - In Kotlin in try-catch block can return an expression and a value, the block can be expression itself.
 - There are no checked exceptions. We don't need to declare them as a boilerplate code
 
@@ -234,3 +234,16 @@ Closures
 
  -Can use java classes in Kotlin files
  - Kotlin classes can extend Java classes and implement Java interfaces
+ - For throwing exceptions that can be used in java talking to kotlin,  in Kotlin file  use annotations @Throws
+ - In order to use top level functions in java, we use the kt file name and invoke the function as it would be the static one in java
+ - Or we can name the kt file with annotation as @file:JvmName("new calss name") and use this name in java
+ - To use extention function from java we need to call the ktFileName.nameExtentionFunction(nameOfClassInstanceInJava)
+ - Kotlin is compatible with Java 6
+ - Some Java 8 functionality have their implementation in Kotlin.
+ - Lambdas become anonymous classes in Kotlin
+ - There is ability to generate Java 8 bytecode, use the -jvm.target-1.8
+ - Two new standard libraries for Java 7/8 Api
+ - 100% interop with Java
+ - for smoother experience using annotations (JetBrains annotations, Android annotations, JSR-305 Javax Annotations)
+ - You can decide when a value can be null (@Nullable) or not null (@NotNull), with or without ? in Kotlin
+
